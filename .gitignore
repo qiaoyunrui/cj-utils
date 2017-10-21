@@ -11,3 +11,5 @@ pom.xml.asc
 .hg/
 .idea/vcs.xml
 .idea/workspace.xml
+
+src/cj_utils/temp/
