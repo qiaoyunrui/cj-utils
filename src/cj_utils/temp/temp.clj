@@ -6,7 +6,7 @@
 
 (defmethod fill :div
   [node value]
-  (assoc node :content [(str value)]))                      ;这里的 :div 是一个转发值，
+  (assoc node :content [(str value)]))                      ;这里的 :div 是一个转发值。当转发函数的返回值与这个转发值匹配的时，所提供的方法实现被选中并被调用
 
 (defmethod fill :input
   [node value]
